@@ -5,7 +5,7 @@
   "license": "MIT",
   "scripts": {
     "test": "echo",
-    "start": "nodemon index.js"
+    "start": "npx nodemon index.js"
   },
   "dependencies": {
     "cors": "^2.8.5",

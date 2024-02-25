@@ -13,6 +13,7 @@ const db = mysql.createConnection({
     password: 'AVNS_5W135YZrjuwuLR-WHt5',
     database: 'library',
     port:'11941',
+    insecureAuth: true,
 });
 
 app.post('/register', (req, res) => {

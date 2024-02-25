@@ -12,6 +12,7 @@ const db = mysql.createConnection({
     host: 'mysql-39af648c-gokul.a.aivencloud.com',
     password: 'AVNS_5W135YZrjuwuLR-WHt5',
     database: 'library',
+    port:'11941',
 });
 
 app.post('/register', (req, res) => {

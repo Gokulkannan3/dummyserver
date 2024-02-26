@@ -8,10 +8,11 @@ app.use(express.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 
 const db = mysql.createConnection({
-    user:'avnadmin',
+    user: 'avnadmin',
     host: 'mysql-39af648c-gokul.a.aivencloud.com',
     password: 'AVNS_5W135YZrjuwuLR-WHt5',
     database: 'library',
+    port:'11941',
 });
 
 app.post('/register', (req, res) => {
